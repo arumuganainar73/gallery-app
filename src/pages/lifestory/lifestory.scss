@@ -1,0 +1,26 @@
+page-lifestory {
+.lifestory-page-content{
+    background:url("../assets/homeImg/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .single-page-button{
+    height: 50px;
+    margin-top: 0px;
+    }
+
+     .single-image-container {
+        height: 160px;
+        }
+
+.single-image-container > img {
+   width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.story-box{
+    text-align: justify;
+    text-indent: 20px;
+}    
+
+}

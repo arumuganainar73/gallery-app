@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>LIFESTORY</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="lifestory-page-content">
+  <ion-grid>
+    <ion-row>
+      <ion-col col-6>
+        <a class="item card-content" (click)="navigation('introduction')">
+          <div class="single-image-container"><img src="assets/homeImg/presitent.jpg" alt="point" />
+          </div>
+          <p ion-button full class="secondary single-page-button">INTRODUCTION</p>
+        </a>
+      </ion-col>
+      <ion-col col-6>
+        <a class="item card-content" (click)="navigation('collegelife')">
+          <div class="single-image-container"><img src="assets/homeImg/college.jpg" alt="point" />
+          </div>
+          <p ion-button full class="secondary single-page-button">COLLEGE LIFE</p>
+        </a>
+
+      </ion-col>
+      <ion-col col-6>
+        <a class="item card-content" (click)="navigation('isrolife')">
+          <div class="single-image-container"><img src="assets/homeImg/isro.jpg" alt="point" />
+          </div>
+          <p ion-button full class="secondary single-page-button">ISRO LIFE</p>
+        </a>
+      </ion-col>
+      <ion-col col-6>
+        <a class="item card-content" (click)="navigation('presitentlife')">
+          <div class="single-image-container"><img src="assets/homeImg/presitent.jpg" alt="point" />
+          </div>
+          <p ion-button full class="secondary single-page-button">PRESIDENT LIFE</p>
+        </a>
+      </ion-col>
+
+      <ion-col col-6>
+        <a class="item card-content" (click)="navigation('awards')">
+          <div class="single-image-container"><img src="assets/homeImg/awards.jpg" alt="point" />
+          </div>
+          <p ion-button full class="secondary single-page-button">AWARDS</p>
+        </a>
+
+      </ion-col>
+      <ion-col col-6>
+        <a class="item card-content" (click)="navigation('conclusion')">
+          <div class="single-image-container"><img src="assets/homeImg/conclusion.png" alt="point" />
+          </div>
+          <p ion-button full class="secondary single-page-button">CONCLUSION</p>
+        </a>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

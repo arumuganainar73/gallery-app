@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>FEEDBACK</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="login-content" padding>
+
+  <ion-row class="logo-row">
+    <ion-col></ion-col>
+    <ion-col width-100>
+      <img src="assets/homeImg/one.jpg" />
+    </ion-col>
+    <ion-col></ion-col>
+  </ion-row>
+  <div class="login-box">
+    <form  #registerForm="ngForm">
+      <ion-row>
+        <ion-col>
+          <ion-list inset>
+
+            <ion-item>
+              <ion-input type="text" placeholder="NAME" name="name" [(ngModel)]="data.name" required></ion-input>
+            </ion-item>
+
+            <ion-item>
+              <ion-input type="text" placeholder="EMAIL" name="email" [(ngModel)]="data.email" required></ion-input>
+            </ion-item>
+
+            <ion-item>
+              <ion-input type="number" placeholder="MOBILE NO" name="mobile" [(ngModel)]="data.number" required></ion-input>
+            </ion-item>
+
+            <ion-item>
+              <ion-input type="text" placeholder="DESCRIPTION" name="description" [(ngModel)]="data.description" required></ion-input>
+            </ion-item>
+
+          </ion-list>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col class="signup-col">
+          <button ion-button class="submit-btn" full (click)="sendFeedBack()" [disabled]="!registerForm.form.valid">SEND</button>
+          </ion-col>
+      </ion-row>
+
+    </form>
+  </div>
+</ion-content>

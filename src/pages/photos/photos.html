@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>PHOTOS</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="photos-page-content">
+  <ion-grid>
+    <ion-row *ngFor="let photo of photos">
+      <div class="photo-image-container">
+        <ion-card>
+          <img class="photo-page-img" [lazyLoad]="photo.imgUrl" imageViewer/>
+        </ion-card>
+      </div>
+    </ion-row>
+  </ion-grid>
+</ion-content>

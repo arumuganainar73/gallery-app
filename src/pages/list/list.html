@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>QUOTES</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="list-page-content">
+  <ion-grid>
+    <ion-row *ngFor="let quote of quotes">
+      <div class="list-image-container">
+        <ion-card>
+          <img class="list-page-img" [lazyLoad]="quote.imgUrl" imageViewer />
+        </ion-card>
+      </div>
+    </ion-row>
+  </ion-grid>
+</ion-content>

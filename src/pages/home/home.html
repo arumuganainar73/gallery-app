@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>APJ ABDUL KALAM</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="home-page home-page-content">
+   <!--<div>
+   <button color="secondary" ion-button (click)="playTextToSpeech()">Welcome</button>
+  </div>-->
+  
+  <ion-slides autoplay="5000" loop="true" speed="5000">
+    <ion-slide *ngFor="let img of homeImages">
+      <div class="home-image-container">
+        <img class="home-page-img" src="{{img.imgUrl}}" imageViewer />
+      </div>
+    </ion-slide>
+  </ion-slides>
+</ion-content>

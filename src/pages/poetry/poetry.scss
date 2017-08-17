@@ -1,0 +1,39 @@
+page-poetry {
+  .poetry-page-content{
+      background:url("../assets/homeImg/bg1.jpg");
+      background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .poetry-image-container {
+    width:342px;
+    height:200px;
+    position:relative;
+    display:inline-block;
+    overflow:hidden;
+}
+
+.poetry-image-container > img {
+    position:absolute;
+    top:55%;
+    min-height:100%;
+    display:block;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    min-width:100%;
+}
+.poeatry-box{
+    background: rgba(255, 255, 255, 0.71);
+    padding: 0 20px;
+}
+.poeatry-box-question{
+    font-weight: bold;
+}
+.poeatry-box-answer{
+    background: none;
+    text-align: justify;
+    text-indent: 20px;
+}
+.open-close-arrow{
+        padding-right: 6px;
+}
+}

@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>BOOKS</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="books-page-content">
+  <ion-grid>
+    <ion-row>
+      <ion-col col-6 *ngFor="let book of books">
+        <div class="books-container">
+
+          <img class="book-page-img" [lazyLoad]="book.imgUrl" (click)="openPdf(book.bookUrl)" />
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

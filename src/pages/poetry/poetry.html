@@ -1,0 +1,411 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+        <ion-title>POETRY</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding class="poetry-page-content">
+    <ion-grid class="poeatry-box">
+        <ion-row>
+            <div>
+
+                <p class="poeatry-box-question" (click)="mission =!mission">
+                    <ion-icon class="open-close-arrow" name="arrow-dropdown-circle" *ngIf="mission"></ion-icon>
+                    <ion-icon class="open-close-arrow" name="arrow-dropright-circle" *ngIf="!mission"></ion-icon>
+                    Our mission is water</p>
+            </div>
+            <ion-card class="poeatry-box-answer" *ngIf="mission">
+                <div class="">
+                    <p>My mother called me Blue Nile I am also named by mother White Nile When we grew and grew we asked Oh
+                        mother, Oh mother Tell us, why did you name us Nile Our mothers said lovingly Oh our children You
+                        travel and travel Cross mountains, forests and valleys Thousands of miles, enriching nine countries
+                        you reach Khartoum you Blue and White Niles confluence with a mission God has commanded you to give
+                        a message you give a beautiful message When we rivers confluence Oh humanity why not your hearts
+                        confluence And you blossom with happiness. A.P.J. Abdul Kalam</p>
+                </div>
+            </ion-card>
+        </ion-row>
+        <ion-row>
+            <div>
+
+                <p class="poeatry-box-question" (click)="Kumbakonam =!Kumbakonam">
+                    <ion-icon class="open-close-arrow" name="arrow-dropdown-circle" *ngIf="Kumbakonam"></ion-icon>
+                    <ion-icon class="open-close-arrow" name="arrow-dropright-circle" *ngIf="!Kumbakonam"></ion-icon>Prayer for departed children of Kumbakonam</p>
+            </div>
+            <ion-card class="poeatry-box-answer" *ngIf="Kumbakonam">
+                <div class="">
+                    <p>Oh dear little ones! Oh dear little ones! For you, parents had glorious dreams ! And you were all immersed
+                        in your own dreams Yet, Agni engulfed you and all of those dreams Taking you to Almighty's divine
+                        presence Usually, departed old parents are buried by sons Whereas, Kumbakonam, saw a sad scene! Crying
+                        parents burying their little ones!! Oh Almighty! show Your grace on those little ones And keep them
+                        all in Thy Holiest Presence!! Oh Almighty! bless those parents wilting in grief To have the strength
+                        to bear this great loss May Thy compassion and grace pervade all souls And bring down the pain and
+                        wipe away the tears Oh Almighty! show Your grace on those little ones. A.P.J. Abdul Kalam</p>
+                </div>
+            </ion-card>
+        </ion-row>
+        <ion-row>
+            <div>
+
+                <p class="poeatry-box-question" (click)="Soldiers =!Soldiers">
+                    <ion-icon class="open-close-arrow" name="arrow-dropdown-circle" *ngIf="Soldiers"></ion-icon>
+                    <ion-icon class="open-close-arrow" name="arrow-dropright-circle" *ngIf="!Soldiers"></ion-icon>My dear Soldiers</p>
+            </div>
+            <ion-card class="poeatry-box-answer" *ngIf="Soldiers">
+                <div class="">
+                    <p>Oh! Defenders of borders You are great sons of my land When we are all asleep You still hold on to your
+                        deed Windy season or snowy days Or scorching sun's sweltering rays You are there guarding all the
+                        time awake Treading the lonely expanses as yogis Climbing the heights or striding the valleys Defending
+                        the deserts or guarding the marshes Surveillance in seas and by securing the air Prime of your youth
+                        given to the nation!! Wind chimes of my land vibrate your feat We pray for you brave men!! May the
+                        Lord bless you all!! A.P.J. Abdul Kalam</p>
+                </div>
+            </ion-card>
+        </ion-row>
+        <ion-row>
+            <div>
+                <p class="poeatry-box-question" (click)="Development =!Development">
+                    <ion-icon class="open-close-arrow" name="arrow-dropdown-circle" *ngIf="Development"></ion-icon>
+                    <ion-icon class="open-close-arrow" name="arrow-dropright-circle" *ngIf="!Development"></ion-icon>
+                    Village Development is key to Nation Development</p>
+            </div>
+            <ion-card class="poeatry-box-answer" *ngIf="Development">
+                <div class="">
+                    <img class="book-page-img" src="assets/poetry/poem1.gif" imageViewer/>
+                </div>
+            </ion-card>
+        </ion-row>
+        <ion-row>
+            <div>
+
+                <p class="poeatry-box-question" (click)="Righteous =!Righteous">
+                    <ion-icon class="open-close-arrow" name="arrow-dropdown-circle" *ngIf="Righteous"></ion-icon>
+                    <ion-icon class="open-close-arrow" name="arrow-dropright-circle" *ngIf="!Righteous"></ion-icon>Rakhi Day is Righteous Day</p>
+            </div>
+            <ion-card class="poeatry-box-answer" *ngIf="Righteous">
+                <div class="">
+                    <p>This full moon day our hearts are in brim Feeling of faith and serenity in mind. We light the lamps and
+                        our hears glow Radiance of happiness and peace are in flow. Harmonious homes are like streams of
+                        joy Flowing and flourishing the landscape en route. Nobility in heart and character in deed Righteous
+                        homes alone make a beautiful State. Sisters will tie the thread on the brothers Abiding them to do
+                        only what is right and clean. Put the Kumkum and blessed rice on the head Where will dwell right
+                        thoughts and noble action. A.P.J. Abdul Kalam</p>
+                </div>
+            </ion-card>
+        </ion-row>
+        <ion-row>
+            <div>
+
+                <p class="poeatry-box-question" (click)="Prakasham =!Prakasham">
+                    <ion-icon class="open-close-arrow" name="arrow-dropdown-circle" *ngIf="Prakasham"></ion-icon>
+                    <ion-icon class="open-close-arrow" name="arrow-dropright-circle" *ngIf="!Prakasham"></ion-icon>Guru Prakasham</p>
+            </div>
+            <ion-card class="poeatry-box-answer" *ngIf="Prakasham">
+
+                <div class="">
+                    <p>Many many years ago our Gurus lit the lamp And the Prakasham was born carrying power of the soul This
+                        light of truth on the lands of five rivers It orbited and orbited around the sun Along with the earth
+                        that carried it as sindhur This earthly Prakasham is so powerful Of human's universal message of
+                        one God Four hundred orbits gone in no time The great Prakasham has even out-glowed the Sun As it
+                        orbits all around the sun, even sun bows in enhanced reverence And salutes the earth, for all that
+                        it carries The Greatest Prakasham of Guru Granth Sahib A.P.J. Abdul Kalam</p>
+                </div>
+            </ion-card>
+        </ion-row>
+        <ion-row>
+            <div>
+
+                <p class="poeatry-box-question" (click)="Soaring =!Soaring">
+                    <ion-icon class="open-close-arrow" name="arrow-dropdown-circle" *ngIf="Soaring"></ion-icon>
+                    <ion-icon class="open-close-arrow" name="arrow-dropright-circle" *ngIf="!Soaring"></ion-icon>Soaring Dream</p>
+            </div>
+            <ion-card class="poeatry-box-answer" *ngIf="Soaring">
+
+                <div class="">
+                    <p>
+                        Fabulous air show of Paris in motion My thought too in flight and yearns for my Nation When will the planes designed in my
+                        land Pierce the sky as lightening in action And gracefully land as angels in full boom All to the
+                        envy of spellbound spectators Yes we can !! When we are united in action and addicted to deeds Sky
+                        can’t be limit for my nation in action !! A.P.J. Abdul Kalam
+                    </p>
+                </div>
+            </ion-card>
+        </ion-row>
+        <ion-row>
+            <div>
+
+                <p class="poeatry-box-question" (click)="Dream =!Dream">
+                    <ion-icon class="open-close-arrow" name="arrow-dropdown-circle" *ngIf="Dream"></ion-icon>
+                    <ion-icon class="open-close-arrow" name="arrow-dropright-circle" *ngIf="!Dream"></ion-icon>Dream</p>
+            </div>
+            <ion-card class="poeatry-box-answer" *ngIf="Dream">
+                <div class="">
+                    <img class="book-page-img" src="assets/poetry/poemdream.gif" imageViewer/>
+                </div>
+            </ion-card>
+        </ion-row>
+        <ion-row>
+            <div>
+
+                <p class="poeatry-box-question" (click)="Vision =!Vision">
+                    <ion-icon class="open-close-arrow" name="arrow-dropdown-circle" *ngIf="Vision"></ion-icon>
+                    <ion-icon class="open-close-arrow" name="arrow-dropright-circle" *ngIf="!Vision"></ion-icon>The Vision</p>
+            </div>
+            <ion-card class="poeatry-box-answer" *ngIf="Vision">
+                <div class="">
+                    <p>
+                        I climbed and climbed Where is the peak, my Lord? I ploughed and ploughed, Where is the knowledge treasure, my Lord? I sailed
+                        and sailed, Where is the island of peace, my Lord? Almighty, bless my nation With vision and sweat
+                        resulting into happiness A.P.J. Abdul Kalam
+                    </p>
+                </div>
+            </ion-card>
+        </ion-row>
+        <ion-row>
+            <div>
+
+                <p class="poeatry-box-question" (click)="VisionTamil =!VisionTamil">
+                    <ion-icon class="open-close-arrow" name="arrow-dropdown-circle" *ngIf="VisionTamil"></ion-icon>
+                    <ion-icon class="open-close-arrow" name="arrow-dropright-circle" *ngIf="!VisionTamil"></ion-icon>The Vision (Tamil)</p>
+            </div>
+            <ion-card class="poeatry-box-answer" *ngIf="VisionTamil">
+                <div class="">
+                    <img class="book-page-img" src="assets/poetry/poemvision.gif" imageViewer/>
+                </div>
+            </ion-card>
+        </ion-row>
+        <ion-row>
+            <div>
+
+                <p class="poeatry-box-question" (click)="Indian =!Indian">
+                    <ion-icon class="open-close-arrow" name="arrow-dropdown-circle" *ngIf="Indian"></ion-icon>
+                    <ion-icon class="open-close-arrow" name="arrow-dropright-circle" *ngIf="!Indian"></ion-icon>I am the Indian Ocean</p>
+            </div>
+            <ion-card class="poeatry-box-answer" *ngIf="Indian">
+                <div class="">
+                    <p>
+                        Surge of my waves and their mystical themes Embracing Bombay and Dar-es in hold We all belong to the cradle of earth Same
+                        human civilization pervades us all Generations of life in these lands were like waves Rising and
+                        falling and melting in time baobabs and Banyans stood witness to these cycles Bondage of slavery
+                        and foreigners yoke Are gone with the past and power now to people Gandhiji and Nyerere’s nobility
+                        and soul strength Got thy the freedom, and now you have a mission Enlightened youths, now you have
+                        to sweat For making thy people prosperous and happy For ye are the greatest hope, for this part of
+                        globe A.P.J. Abdul Kalam
+                    </p>
+                </div>
+            </ion-card>
+        </ion-row>
+        <ion-row>
+            <div>
+
+                <p class="poeatry-box-question" (click)="Subbulakshmi =!Subbulakshmi">
+                    <ion-icon class="open-close-arrow" name="arrow-dropdown-circle" *ngIf="Subbulakshmi"></ion-icon>
+                    <ion-icon class="open-close-arrow" name="arrow-dropright-circle" *ngIf="!Subbulakshmi"></ion-icon>Homage to Carnatic Music Doyen Late M S Subbulakshmi</p>
+            </div>
+            <ion-card class="poeatry-box-answer" *ngIf="Subbulakshmi">
+                <div class="">
+                    <img class="book-page-img" src="assets/poetry/poemsubba.gif" imageViewer/>
+                </div>
+            </ion-card>
+        </ion-row>
+        <ion-row>
+            <div>
+
+                <p class="poeatry-box-question" (click)="Treez =!Treez">
+                    <ion-icon class="open-close-arrow" name="arrow-dropdown-circle" *ngIf="Treez"></ion-icon>
+                    <ion-icon class="open-close-arrow" name="arrow-dropright-circle" *ngIf="!Treez"></ion-icon>The Life Treez</p>
+            </div>
+            <ion-card class="poeatry-box-answer" *ngIf="Treez">
+                <div class="">
+                    <p>
+                        Oh, my human race, How, we were born, In the Universe of near infinity, Are we alone? I was seeking answer for the great
+                        Question of creation, weighing heavy My mind as I am in seventieth orbit Around sun, my little habitat,
+                        the star Where my race living, lived billions of years And will live billions of years, till the
+                        sun shines. This is the millennium question of humanity, And sought the help of our creator. On the
+                        eventful day, I was flying The earth below me, the human habitat Vanished in the white river of cloud,
+                        Silent, turbulent free everywhere the divine Splendour reflecting. On the above, the full moon with
+                        its magnificent might, My heart melted, my friend co-passenger Vidyasagar joined in the heavenly
+                        display. The beauty entered into our soul And blossomed happiness into our mind and body. We the
+                        humanity bowed to the heavenly answer, We are not alone, billion of billion lives Of various forms
+                        spring in the planets of Galaxy after galaxies. Then the dawn of divine message. There was the divine
+                        echo in the full moon night From my creator. Shaken, bewildered and wondered The echo engulfed me
+                        and my race "You, the human race is the best of my creation You will live and live. You give and
+                        give till you are united, In human happiness and pain. My bliss will be born in you Love is the mission
+                        of humanity, You will see every day in Life Tree You learn and learn My best of creations." Beautiful
+                        morning it was, Sun radiating, driving away the clouds Parrots and Kokilas were at their musical
+                        flight We the yellow heaven group entered Flower garden of Asiad Roses were in their splendour Radiating
+                        beauty in White and Crimson Bowing to the dawn of sun We walked and walked, our feet on the green
+                        Meadow giving velvet touch, Children somewhere ringing in unison in their innocence Peacocks in the
+                        background giving beautiful display. There was a majestic scence of Life Tree Cluster of tall and
+                        straight Nag Phali grove Undaunted to the sun rays direction Multi layered, each flower plant bubbling
+                        with life, We approached very close to the happy plants Astonished to see the nature?s wonder. Bottom
+                        layers have shed the flower all around the sand Whereas mid layer flower blossomed In number to the
+                        magnificence Perfume radiating, beauty all around Honey bees filling the flower bed, mutual love
+                        flowing Intoxicated with the scene, we looked at the top layer Ring of the buds about to blossom
+                        And new layers at their birth. Again the great divine echo enters all around us Flowers blossom,
+                        radiate beauty and spread perfume And give honey. On the eve of life Flowers silently fall to the
+                        earth, they belong. Oh my creation this is mission of human life You are born, live life of giving
+                        And bond the human life Your mission is the Life Tree. My blessings to you my creation. Oh my human
+                        race! Let's sing the song of creation. Me and my friend Prof. Vidyasagar travelled together by air
+                        between Hyderabad and Delhi. Our plane flew through the sky surrounded by milky white clouds. The
+                        grand scene moved our souls. Thereafter, when we were walking at the Asiad Village Complex, the layers
+                        of branches and flowers of Nagphali tree soaked our souls with a divine experience. I was provoked
+                        into writing 'Life Tree'. A.P.J. Abdul Kalam
+                    </p>
+                </div>
+            </ion-card>
+        </ion-row>
+        <ion-row>
+            <div>
+
+                <p class="poeatry-box-question" (click)="Walls =!Walls">
+                    <ion-icon class="open-close-arrow" name="arrow-dropdown-circle" *ngIf="Walls"></ion-icon>
+                    <ion-icon class="open-close-arrow" name="arrow-dropright-circle" *ngIf="!Walls"></ion-icon>Rock Walls</p>
+            </div>
+            <ion-card class="poeatry-box-answer" *ngIf="Walls">
+                <div class="">
+                    <p>
+                        Some build rock walls all their lives, When they die miles of walls divide them. Others build rock walls, one rock on another,
+                        And: then build a terrace, where they pray for love. Yet others build walls to enclose orchards,
+                        Endeavouring to find ways to fulfill hunger. A few others build rock walls - to make a home, It is
+                        their mission to serve humanity and nature. I build no walls, to confirm to joy or sorrow; To sacrifice
+                        or achieve, or to gain or lose, I just grow flowers on all open spaces, And float lilies on ponds
+                        and rivers. I keep planting trees, for birds to have nests, At the dawn of the sun, when morning
+                        breeze blow. Sun light get filtered through shining tree leaves, Birds' flight gives me sense of
+                        freedom and pleasure. Scattered light of colour and treasure, Fragrance of flowers gives me delight
+                        of creator. Lilies floating over like nature's dance, Why should I build walls to confine them all?
+                        I have no house, only open spaces, Filled with truth, kindness and dreams. Desire to see my country
+                        developed and great, Dreams to see everywhere happiness and peace. A.P.J. Abdul Kalam
+                    </p>
+                </div>
+            </ion-card>
+        </ion-row>
+        <ion-row>
+            <div>
+
+                <p class="poeatry-box-question" (click)="Where =!Where">
+                    <ion-icon class="open-close-arrow" name="arrow-dropdown-circle" *ngIf="Where"></ion-icon>
+                    <ion-icon class="open-close-arrow" name="arrow-dropright-circle" *ngIf="!Where"></ion-icon>Where are we?</p>
+            </div>
+            <ion-card class="poeatry-box-answer" *ngIf="Where">
+                <div class="">
+                    <p>Where are we now, dear friends, In the Maha Sabha that shapes as history, The call of heart beats of
+                        Indian people, People ask us, people ask us; “Oh! Parliamentarians, the sculptors of Mother India,
+                        Lead us unto light, enrich our lives. Your righteous toil, is our guiding light, If you work hard,
+                        we all can prosper.” Like King, so the people, Nurture great thoughts, rise up in actions, May righteous
+                        methods be your guide; May you all prosper ever with Almighty’s grace. A.P.J. Abdul Kalam</p>
+                </div>
+            </ion-card>
+
+        </ion-row>
+        <ion-row>
+            <div>
+
+                <p class="poeatry-box-question" (click)="WhereTamil =!WhereTamil">
+                    <ion-icon class="open-close-arrow" name="arrow-dropdown-circle" *ngIf="WhereTamil"></ion-icon>
+                    <ion-icon class="open-close-arrow" name="arrow-dropright-circle" *ngIf="!WhereTamil"></ion-icon>Where are we? (Tamil)</p>
+            </div>
+            <ion-card class="poeatry-box-answer" *ngIf="WhereTamil">
+                <div class="">
+                    <img class="book-page-img" src="assets/poetry/poem280205.gif" imageViewer/>
+                </div>
+            </ion-card>
+        </ion-row>
+        <ion-row>
+            <div>
+
+                <p class="poeatry-box-question" (click)="Youth =!Youth">
+                    <ion-icon class="open-close-arrow" name="arrow-dropdown-circle" *ngIf="Youth"></ion-icon>
+                    <ion-icon class="open-close-arrow" name="arrow-dropright-circle" *ngIf="!Youth"></ion-icon>Song of Youth</p>
+            </div>
+            <ion-card class="poeatry-box-answer" *ngIf="Youth">
+                <div class="">
+                    <img class="book-page-img" src="assets/poetry/20050324142142.jpg" imageViewer/>
+                </div>
+            </ion-card>
+        </ion-row>
+        <ion-row>
+            <div>
+
+                <p class="poeatry-box-question" (click)="shining =!shining">
+                    <ion-icon class="open-close-arrow" name="arrow-dropdown-circle" *ngIf="shining"></ion-icon>
+                    <ion-icon class="open-close-arrow" name="arrow-dropright-circle" *ngIf="!shining"></ion-icon>Earth shining in Glory</p>
+            </div>
+            <ion-card class="poeatry-box-answer" *ngIf="shining">
+                <div class="">
+                    <p>
+                        Our Milky Way is shining, with millions and millions of stars. Our beloved star Sun, along with eight other planets around.
+                        Orbits the Milky Way, finishes one orbit in two hundred and fifty million years. Somewhere in the
+                        galaxy, echoed a voice in surprise. "See there the Earth shining in glory how come it got its light?"
+                        A sweet and soft reply comes: "It is not the mere light, It is the light of knowledge, It is the
+                        light of service, It is the light of peace. Specially radiating from Prasanthi Nilayalam When Earth
+                        completes its eightieth orbit Carrying a great soul in its bosom" A.P.J. Abdul Kalam
+                    </p>
+                </div>
+            </ion-card>
+        </ion-row>
+        <ion-row>
+            <div>
+
+                <p class="poeatry-box-question" (click)="Phoenix =!Phoenix">
+                    <ion-icon class="open-close-arrow" name="arrow-dropdown-circle" *ngIf="Phoenix"></ion-icon>
+                    <ion-icon class="open-close-arrow" name="arrow-dropright-circle" *ngIf="!Phoenix"></ion-icon>Phoenix of Life</p>
+            </div>
+            <ion-card class="poeatry-box-answer" *ngIf="Phoenix">
+                <div class="">
+                    <img class="book-page-img" src="assets/poetry/20070129173641.jpg" imageViewer/>
+                </div>
+            </ion-card>
+        </ion-row>
+        <ion-row>
+            <div>
+
+                <p class="poeatry-box-question" (click)="Speaks =!Speaks">
+                    <ion-icon class="open-close-arrow" name="arrow-dropdown-circle" *ngIf="Speaks"></ion-icon>
+                    <ion-icon class="open-close-arrow" name="arrow-dropright-circle" *ngIf="!Speaks"></ion-icon>Neva Speaks</p>
+            </div>
+            <ion-card class="poeatry-box-answer" *ngIf="Speaks">
+                <div class="">
+                    <img class="book-page-img" src="assets/poetry/20070129173654.jpg" imageViewer/>
+                </div>
+            </ion-card>
+        </ion-row>
+        <ion-row>
+            <div>
+
+                <p class="poeatry-box-question" (click)="Smiles =!Smiles">
+                    <ion-icon class="open-close-arrow" name="arrow-dropdown-circle" *ngIf="Smiles"></ion-icon>
+                    <ion-icon class="open-close-arrow" name="arrow-dropright-circle" *ngIf="!Smiles"></ion-icon>My Garden Smiles</p>
+            </div>
+            <ion-card class="poeatry-box-answer" *ngIf="Smiles">
+                <div class="">
+                    <img class="book-page-img" src="assets/poetry/20070329144915.jpg" imageViewer/>
+                </div>
+            </ion-card>
+        </ion-row>
+        <ion-row>
+            <div>
+
+                <p class="poeatry-box-question" (click)="Siddaganga =!Siddaganga">
+                    <ion-icon class="open-close-arrow" name="arrow-dropdown-circle" *ngIf="Siddaganga"></ion-icon>
+                    <ion-icon class="open-close-arrow" name="arrow-dropright-circle" *ngIf="!Siddaganga"></ion-icon>Radiating message from Sree Siddaganga Math</p>
+            </div>
+            <ion-card class="poeatry-box-answer" *ngIf="Siddaganga">
+                <div class="">
+                    <p>
+                        You, in front of you, see a sage. Wearing beautiful spiritual blessings, the sage. Everyday, Almighty has given this sage,
+                        A precious diamond of life. The sage, strung over thirty six thousand, Diamonds into a priceless
+                        garland of Tapasvi life, With the message to humanity: "O my fellow citizens, In giving, you receive
+                        happiness, In Body and Soul. You have everything to give. If you have knowledge, share it. If you
+                        have resources, share it with the needy. Use your mind and heart, To remove the pain of the suffering,
+                        And, cheer the sad hearts. In giving, you receive happiness. Almighty will bless all your actions."
+                        A.P.J. Abdul Kalam
+                    </p>
+                </div>
+            </ion-card>
+        </ion-row>
+    </ion-grid>
+</ion-content>
