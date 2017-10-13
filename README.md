@@ -2,29 +2,28 @@
  
 1.Install the the latest beta version of the Ionic CLI:
 
-    ```
-    npm install -g ionic@beta (or)
-    ```
-    ```
-    npm install -g ionic cordova
-    ```
+  ```
+  npm install -g ionic@beta (or)
+  npm install -g ionic cordova
+  ```
     
 1.Clone this repository
 
-    ```
-    git clone https://github.com/arumuganainar73/gallery-app  
-    ```
+  ```
+  git clone https://github.com/arumuganainar73/gallery-app  
+  ```
 
 1.Navigate to the ionic gallery directory:
 
-    ```
-    cd gallery-app 
-    ```
+  ```
+  cd gallery-app 
+  ```
     
 1.Install the dependencies 
-     ```
-    npm install
-     ```
+
+  ```
+  npm install
+   ```
      
 1.Start the app in the browser
 
@@ -38,7 +37,7 @@ From here, you can build and deploy the app on different platforms using the tra
 
 1.Then, to run it, cd into gallery-app and run: 
 
-     ```
+   ```
     $ ionic cordova platform add android (or) ios  
     $ ionic cordova run android (or) ios
-     ```
+   ```
